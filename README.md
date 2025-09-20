@@ -15,3 +15,8 @@ Repositório elaborado para manter consolidado as metodologias apresentadas no b
 ### Repositório contendo explicações sobre: Sintaxe, Fundamentos e exemplos práticos;
 **Orientado por:** Guilherme Carvalho
 > **Repositório:** [Trilha sobre Python](https://github.com/digitalinnovationone/trilha-python-dio)
+
+
+## **Feedback sobre a experiência do bootcamp**
+### * * Supreendentemente agregador, em todos os sentidos, desde abstrair exemplos do mundo real até entender os principios essências da linguagem </br>* *
+### * * Estou eternamente grato por ter aproveitado essa oportunidade!!! * *  
