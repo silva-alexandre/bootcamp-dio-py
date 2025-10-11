@@ -39,7 +39,8 @@ while True:
                 #Ao realizar o login, o usuário terá acesso a um menu específico.
 
                 login_menu = """
-                            [0] Logout - [1] Depositar - [2] Sacar - [3] Extrato
+                            [0] Logout - [1] Depositar 
+                            [2] Sacar - [3] Extrato
                             [4] Voltar ao menu principal
                             =>  """
                 while True:
