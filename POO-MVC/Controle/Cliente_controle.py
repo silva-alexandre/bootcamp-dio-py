@@ -15,4 +15,4 @@ class Cliente_controle:
     def validar_cpf(self, cpf):
         for cliente in self.clientes:
             if cliente.cpf == cpf:
-                return cpf
+                return cliente

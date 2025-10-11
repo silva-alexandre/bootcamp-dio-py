@@ -45,7 +45,7 @@ def main():
         elif escolha == "2":
             cpf = input("Informe seu CPF para acessar o cadastro: ")
             cliente = cliente_controle.validar_cpf(cpf)
-            if cliente == cliente.cpf:
+            if cliente and cliente.cpf == cpf:
                 print(f"Bem vindo(a) {cliente.nome}!")
                 sub_menu = Menu(
                     titulo="Menu de Contas",

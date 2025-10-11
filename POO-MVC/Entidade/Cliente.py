@@ -18,4 +18,4 @@ class Cliente:
             return False
     
     def __str__(self):
-        return f"Cliente(nome={self.nome})"
+        return f"Cliente(nome={self.nome}, cpf={self.cpf})"
