@@ -16,7 +16,6 @@ def main():
             "2": "Acessar Cadastro",
             "3": "Sobre o APP?",
             "4": "Sair",
-
         }
     )
 
@@ -61,14 +60,16 @@ def main():
                 if escolha == "1":
                     contas = conta_controle.listar_contas()
                     for conta in contas:
-                        if conta.cliente.cpf == cpf:
-                            print(f"Resumo da conta: {conta}, Cliente: {conta.cliente.nome}")
+                        print(f"Resumo da conta: {conta}, Cliente: {conta.cliente.nome}")
+                        break
                 elif escolha == "2":
-                    print("Função de depósito ainda não implementada.")
+                    conta_controle.depositar(0)
+                    conta_controle.exibir_extrato()
                 elif escolha == "3":
-                    print("Função de saque ainda não implementada.")
+                    conta_controle.sacar(float(input("Informe o valor a ser sacado: ")))
+                    conta_controle.exibir_extrato()
                 elif escolha == "4":
-                    print("Função de extrato ainda não implementada.")
+                    conta_controle.exibir_extrato()
                 else:
                     print("Opção inválida no menu de contas.")
         elif escolha == "3":
@@ -77,7 +78,8 @@ def main():
         
         elif escolha == "4":
             print("Saindo do sistema. Até logo!")
-            break
+            
+        break
         
 if __name__ == "__main__":
     main()
